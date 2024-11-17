@@ -31,7 +31,7 @@ const gitIgnoreStep = createStep({
         'Creating .gitignore file with sensible defaults',
       )
       if (shouldCreateGitIgnore) {
-        execSync(`echo "${defaultGitIgnore}" >> .gitignore`)
+        execSync(`echo "${defaultGitIgnore}" > .gitignore`)
         message.succeed('Created .gitignore file')
       } else {
         message.info('Skipped creating .gitignore file')
