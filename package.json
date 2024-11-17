@@ -1,18 +1,21 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@varet/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Varet CLI internal tools.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "license": "MIT",
-  "private": false,
-  "type": "module",
   "author": {
     "email": "tarikyyildizci@gmail.com",
     "name": "Tarık Yusuf Yıldızcı",
     "url": "https://tarikyildizci.com"
   },
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "hak": "node dist/index.js",
     "build": "tsc && tsc-alias",
