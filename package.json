@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@varet/core",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Varet CLI internal tools.",
   "author": {
     "email": "tarikyyildizci@gmail.com",
@@ -14,7 +14,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "dist"
   ],
   "scripts": {
     "hak": "node dist/index.js",
