@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@varet/core",
+  "version": "0.0.2",
+  "description": "Varet CLI internal tools.",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "author": {
+    "email": "tarikyyildizci@gmail.com",
+    "name": "Tarık Yusuf Yıldızcı",
+    "url": "https://tarikyildizci.com"
+  },
+  "scripts": {
+    "hak": "node dist/index.js",
+    "build": "tsc && tsc-alias",
+    "bhak": "yarn build && yarn hak",
+    "format": "prettier --write .",
+    "ts": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "cfonts": "^3.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.6.3"
+  }
+}
