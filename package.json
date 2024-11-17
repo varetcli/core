@@ -1,9 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@varet/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Varet CLI internal tools.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "private": false,
   "type": "module",
