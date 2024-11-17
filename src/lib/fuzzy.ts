@@ -3,7 +3,7 @@ type FuzzyResult<T> = {
   score: number
 }
 
-function fuzzy<T>(
+export function fuzzy<T>(
   items: T[],
   query: string,
   getKey: (item: T) => string = (item) =>
@@ -53,5 +53,3 @@ function calculateFuzzyScore(
 
   return score
 }
-
-export default fuzzy
