@@ -1,13 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@varet/core",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Varet CLI internal tools.",
   "author": {
     "email": "tarikyyildizci@gmail.com",
     "name": "Tarık Yusuf Yıldızcı",
     "url": "https://tarikyildizci.com"
   },
+  "repository": "https://github.com/varetcli/core",
   "license": "MIT",
   "private": false,
   "type": "module",
